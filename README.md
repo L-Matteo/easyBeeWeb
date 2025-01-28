@@ -8,9 +8,11 @@
 
 ## ⚙️Fonctionnalités 
  Clients : 
-    - 
-    - S'inscrire à une formation
- Admin : 
+  - S'inscrire à une formation
+  - 
+
+ Admin :
+  - Voir les formations complêtes 
 
 
 ## 📋Prérequis
