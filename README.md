@@ -8,11 +8,12 @@
 
 ## ⚙️Fonctionnalités 
  Clients : 
+  - Voir les détails des formations proposées par l'entreprise
   - S'inscrire à une formation
-  - 
 
  Admin :
-  - Voir les formations complêtes 
+  - Voir les clients inscrits à une formation choisie
+  - Trier les clients inscrits à une formation selon différents critères
 
 
 ## 📋Prérequis
