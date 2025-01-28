@@ -16,7 +16,7 @@
 
 
 ## 📋Prérequis
-- PHP (8.3 minimum)
+- PHP (8.2 minimum)
 - Symfony
 - IDE compatible (VS code, PHPStorm, etc.)
 - Serveur web (WAMP, XAMP, etc)
