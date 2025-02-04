@@ -1,7 +1,7 @@
 services:
   app:
     image: php:8.2-apache
-    container_name: symfony_app
+    container_name: app
     restart: always
     working_dir: /var/www/html
     volumes:
@@ -17,7 +17,7 @@ services:
 
   db:
     image: mysql:8.0
-    container_name: symfony_db
+    container_name: db
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
@@ -30,10 +30,10 @@ services:
       - db_data:/var/lib/mysql
     networks:
       - symfony_network
-      
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    container_name: symfony_phpmyadmin
+    container_name: phpmyadmin
     restart: always
     environment:
       PMA_HOST: db
